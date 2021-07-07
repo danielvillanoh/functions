@@ -1,41 +1,43 @@
-Name:
-Date:
+Name: Daniel Villano-Herrera
+Date: 7/7/2021
 
 1 - What is the return value of the len() function?
-
+The return value of len() function is the length of an object.
 
 
 2 - What is the return value of the print() function?
-
+The return value of print() function is None.
 
 
 3 - Can a function be used in an operation or expression?
-
-
+A function can be used in expression.
 
 4 - Are functions name case-sensitive?
-
+Functions are name case-sensitive.
 
 
 5 - What are the 3 rules behind good names for variables and functions?
 
+1) Good variable and function names should be clear and easy to read.
+2) The variable and function names should be meaningful.
+3) Use camelcase or under score to seperate words in the name.
+
 
 
 6 - What is the keyword used to define a function?
-
+The keyword used to define a function is 'def'.
 
 
 7 - What is name of the values used in a function call?
-
+The name of the values used in a function call is called argument.
 
 
 8 - What is the name of the values used in a function definition?
-
+The name of the values used in a function definition is called parameter.
 
 
 9 - Are parameters variables?
-
+Parameters are variables.
 
 10 - How do you return a value?
-
-
+You return a value by calling return.

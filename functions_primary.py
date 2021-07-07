@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Daniel Villano-Herrera
+# date: 7/7/2021
 
 
 # --------------- Section 1 --------------- #
@@ -25,6 +25,11 @@
 # 1 is done for you.
 
 print('The absolute value of -15 is:', abs(-15))
+print('The hexadecimal value of 21 is:', hex(21))
+print('The id of the variable holding the hexadecimal value of 21', id(hex(21)))
+print('2^5 =', pow(2, 5))
+print("3.75123 rounded in the nearest integer is:", int(3.75123))
+print('Here\'s the length of my full name:', len('Daniel Villano-Herrera'))
 
 
 # --------------- Section 2 --------------- #
@@ -43,6 +48,25 @@ print('The absolute value of -15 is:', abs(-15))
 #   1 - Call each function once.
 #
 # WRITE CODE BELOW
+def print_name():
+    print('Daniel Villano-Herrera')
+
+
+def favorite_animals():
+    print('Cat')
+    print('Eagle')
+    print('Dog')
+
+
+def odd_numbers():
+    print(1)
+    print(3)
+    print(5)
+
+
+print_name()
+favorite_animals()
+odd_numbers()
 
 
 # 2 | Function Definitions with Parameters
@@ -71,3 +95,18 @@ print('The absolute value of -15 is:', abs(-15))
 #   2 - For the 3rd function, save the return value to a variable and print it.
 #
 # WRITE CODE BELOW
+def cube_of_number(num):
+    print(num * num * num)
+
+
+def sum_of_three_numbers(a, b, c):
+    print(a + b + c)
+
+
+def duplicate_five_times(text):
+    return text * 5
+
+
+cube_of_number(4)
+sum_of_three_numbers(1, 3, 4)
+print(duplicate_five_times('hi'))
